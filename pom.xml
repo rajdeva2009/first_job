@@ -3,14 +3,15 @@
 
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.example.maven-project</groupId>
-  <artifactId>maven-project</artifactId>
+  <groupId>com.example-repo-local</groupId>
+  <artifactId>maven1</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Maven Project</name>
+  <!--
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
-
+  -->
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
