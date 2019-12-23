@@ -215,22 +215,20 @@
 #    <url>http://github.com/jleetutorial/maven-project</url>
 #  </scm>
  -->
-   <repositories>
+
+  <distributionManagement>
     <repository>
         <id>central</id>
-        <url>http://[host]:[port]/artifactory/libs-release</url>
-        <snapshots>
-            <enabled>false</enabled>
-        </snapshots>
+        <name>88b7b67b5b58-releases</name>
+        <url>http://192.168.201.167:8081/artifactory/New_Maven</url>
     </repository>
-    <repository>
+    <snapshotRepository>
         <id>snapshots</id>
-        <url>http://[host]:[port]/artifactory/libs-snapshot</url>
-        <releases>
-            <enabled>false</enabled>
-        </releases>
-    </repository>
-</repositories>
+        <name>88b7b67b5b58-snapshots</name>
+        <url>http://192.168.201.167:8081/artifactory/New_Maven</url>
+    </snapshotRepository>
+</distributionManagement>
+         
          
   <prerequisites>
     <maven>3.0.3</maven>
