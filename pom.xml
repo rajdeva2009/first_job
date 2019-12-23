@@ -214,9 +214,26 @@
 #    <tag>HEAD</tag>
 #    <url>http://github.com/jleetutorial/maven-project</url>
 #  </scm>
- 
+ -->
+   <repositories>
+    <repository>
+        <id>central</id>
+        <url>http://[host]:[port]/artifactory/libs-release</url>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+    </repository>
+    <repository>
+        <id>snapshots</id>
+        <url>http://[host]:[port]/artifactory/libs-snapshot</url>
+        <releases>
+            <enabled>false</enabled>
+        </releases>
+    </repository>
+</repositories>
+         
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
--->
+
 </project>
