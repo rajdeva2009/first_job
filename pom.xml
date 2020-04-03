@@ -215,17 +215,7 @@
 #    <url>http://github.com/jleetutorial/maven-project</url>
 #  </scm>
  -->
-    <repository>
-        <id>central</id>
-        <name>88b7b67b5b58-releases</name>
-        <url>http://192.168.201.167:8081/artifactory/New_Maven</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>88b7b67b5b58-snapshots</name>
-        <url>http://192.168.201.167:8081/artifactory/New_Maven</url>
-    </snapshotRepository>
-         
+ 
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
