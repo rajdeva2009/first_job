@@ -4,7 +4,7 @@ node('') {
   // prepare checkout
      stage('git checkout') {
           gitCheckout(
-            branch: "ok",
+            branch: "master",
             url: "https://github.com/rajdeva2009/DevopsProj.git"
        )
       }
