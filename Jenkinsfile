@@ -1,6 +1,6 @@
 #! groovy
 @Library('myshared-library@master') _
-node('any') {
+node('') {
   // prepare checkout
      stage('git checkout') {
           gitCheckout(
